@@ -10,11 +10,11 @@ function AddTrip() {
                 <h3>Add Trip Details</h3>
                 <div>
                     <label>Trip Name:  </label>
-                    <input type="text" placeholder='trip name' name='name_first' />
+                    <input type="text" placeholder='trip name' name='trip_name' />
                 </div>
                 <div>
                     <label>Destination:  </label>
-                    <input type="text"  placeholder='destination' name='name_last'/>
+                    <input type="text"  placeholder='destination' name='destination'/>
                 </div>
                 <div>
                     <label for="start">Start Date:  </label>
