@@ -16,6 +16,7 @@ function AddTrip({setTripInfo, tripInfo}) {
     const [destination, setDestination] = useState("");
     const [date_start, setDateStart] = useState("");
     const [date_end, setDateEnd] = useState("");
+    const [user_id, setUserId] = useState("");
     const navigate = useNavigate();
 
     const handleSubmitAddTrip = (e) => {
@@ -30,7 +31,8 @@ function AddTrip({setTripInfo, tripInfo}) {
                 description,
                 destination,
                 date_start,
-                date_end
+                date_end,
+                user_id
             })
             })
             .then(data => data.json())
@@ -80,4 +82,4 @@ function AddTrip({setTripInfo, tripInfo}) {
 }
 
 
-export default AddTrip; 
+export default AddTrip;
