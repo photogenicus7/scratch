@@ -38,6 +38,7 @@ module.exports = {
           secure: false,
         }
     },
+  
     module: {
         rules: [
             {

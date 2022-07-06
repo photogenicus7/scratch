@@ -5,7 +5,9 @@ import MapItem from './mapItem';
 function mapp() {
   const { isLoaded } = useLoadScript({
     // better practice to put API key into ENV!!
+    id: 'google-map-script',
     googleMapsApiKey: 'AIzaSyCHiRhiBXEfG9PCnAMeHI6qPuyupL02i78',
+    libraries: ['places']
   });
 
   if (!isLoaded) return <div>Loading...</div>
